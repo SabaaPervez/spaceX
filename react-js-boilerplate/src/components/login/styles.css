@@ -1,0 +1,17 @@
+.login-btn {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  flex-direction: column;
+  height: 200px;
+}
