@@ -453,8 +453,8 @@ h1 {
 }
 .particles > i:after {
   content: "";
-  height: 7px;
-  width: 7px;
+  height: 100px;
+  width: 100px;
   position: relative;
   border-radius: 100%;
   display: block;

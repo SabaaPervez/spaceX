@@ -4,14 +4,14 @@ import "./styles.css";
 const Loader = () => {
     return (
         <div>
-            <div className="loader loader-white">
+            <div className="loader">
             <div className="loader-spined">
                 <div className="loader--icon">
                 {/* <i className="fa fa-rocket offset-45deg"></i> */}
-               <i className="fas fa-rocket"></i>
+            <i className="fas fa-rocket"></i>
                 </div>
             </div>
-            
+            </div>
             <div className="pufs">
                 <i></i><i></i><i></i>
                 <i></i><i></i><i></i>
@@ -46,7 +46,7 @@ const Loader = () => {
                 <i></i><i></i><i></i>
                 <i></i><i></i><i></i>
             </div>
-            </div>
+
         </div>
     );
 }
